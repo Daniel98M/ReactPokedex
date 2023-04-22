@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+  
+.Pokedex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-between;
+  margin: 10px;
+}
+  
+.Entry{
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 6px 10px 5px 0px rgba(199,197,199,0.75);
+}
+
+.pokedex-type {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.pokedex-type span {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Tipo Normal */
+.type-normal {
+  background-color: #a8a878;
+  color: #fff;
+}
+
+/* Tipo Fuego */
+.type-fire {
+  background-color: #f08030;
+  color: #fff;
+}
+
+/* Tipo Agua */
+.type-water {
+  background-color: #6890f0;
+  color: #fff;
+}
+
+/* Tipo Eléctrico */
+.type-electric {
+  background-color: #f8d030;
+  color: #fff;
+}
+
+/* Tipo Planta */
+.type-grass {
+  background-color: #78c850;
+  color: #fff;
+}
+
+/* Tipo Hielo */
+.type-ice {
+  background-color: #98d8d8;
+  color: #fff;
+}
+
+/* Tipo Lucha */
+.type-fighting {
+  background-color: #c03028;
+  color: #fff;
+}
+
+/* Tipo Veneno */
+.type-poison {
+  background-color: #a040a0;
+  color: #fff;
+}
+
+/* Tipo Tierra */
+.type-ground {
+  background-color: #e0c068;
+  color: #fff;
+}
+
+/* Tipo Volador */
+.type-flying {
+  background-color: #a890f0;
+  color: #fff;
+}
+
+/* Tipo Psíquico */
+.type-psychic {
+  background-color: #f85888;
+  color: #fff;
+}
+
+/* Tipo Bicho */
+.type-bug {
+  background-color: #a8b820;
+  color: #fff;
+}
+
+/* Tipo Roca */
+.type-rock {
+  background-color: #b8a038;
+  color: #fff;
+}
+
+/* Tipo Fantasma */
+.type-ghost {
+  background-color: #705898;
+  color: #fff;
+}
+
+/* Tipo Dragón */
+.type-dragon {
+  background-color: #7038f8;
+  color: #fff;
+}
+
+/* Tipo Siniestro */
+.type-dark {
+  background-color: #705848;
+  color: #fff;
+}
+
+/* Tipo Acero */
+.type-steel {
+  background-color: #b8b8d0;
+  color: #fff;
+}
+
+/* Tipo Hada */
+.type-fairy {
+  background-color: #ee99ac;
+  color: #fff;
+}
+
+.moreInfo-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 2px;
+}
+
+.moreInfo-button:hover {
+  background-color: #fff;
+  color: #f00;
+}
+
+.pokemon-captured {
+  display: flex;
+  align-items: center;
+}
+
+.captured-icon {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px; 
+}
+
+.capture-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #FFCB05;
+  color: #4F4F4F;
+  border: 1px solid #C4C4C4;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 2px;
+}
+
+.capture-button#liberar{
+  background-color: #4F4F4F;
+  color: #FFCB05;
+}
+
+.capture-button:hover {
+  background-color: #FFDE5A;
+  color: #f00;
+}
+
+.capture-button#liberar:hover {
+  background-color: #FFDE5A;
+  color: #f00;
+}
+
+.favorite-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007FFF;
+  color: #fff;
+  border: 1px solid #C4C4C4;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 2px;
+}
+
+.favorite-button#nofav{
+  background-color: #fff;
+  color: #f00;
+}
+
+.favorite-button:hover {
+  background-color: #fff;
+  color: #f00;
+}
+
+.favorite-button#nofav:hover {
+  background-color: #007FFF;
+  color: #fff;
+}

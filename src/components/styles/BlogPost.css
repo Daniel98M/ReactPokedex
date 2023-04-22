@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+/* Pokedex*/
+.pokedex {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border: 10px solid #333;
+    border-radius: 20px;
+    overflow: hidden;
+}
+  
+.pokedex-screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+  
+.pokedex-image {
+    width: 150px;
+    height: 150px;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+  
+.pokedex-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.pokedex-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+.pokedex-data {
+    display: flex;
+    align-items: center;
+}
+  
+.pokedex-type {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex: 1;
+}
+  
+.pokedex-type span {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Tipo Normal */
+.type-normal {
+    background-color: #a8a878;
+    color: #fff;
+}
+  
+/* Tipo Fuego */
+.type-fire {
+    background-color: #f08030;
+    color: #fff;
+}
+  
+/* Tipo Agua */
+.type-water {
+    background-color: #6890f0;
+    color: #fff;
+}
+  
+/* Tipo Eléctrico */
+.type-electric {
+    background-color: #f8d030;
+    color: #fff;
+}
+  
+/* Tipo Planta */
+.type-grass {
+    background-color: #78c850;
+    color: #fff;
+}
+  
+/* Tipo Hielo */
+.type-ice {
+    background-color: #98d8d8;
+    color: #fff;
+}
+  
+/* Tipo Lucha */
+.type-fighting {
+    background-color: #c03028;
+    color: #fff;
+}
+  
+/* Tipo Veneno */
+.type-poison {
+    background-color: #a040a0;
+    color: #fff;
+}
+  
+/* Tipo Tierra */
+.type-ground {
+    background-color: #e0c068;
+    color: #fff;
+}
+  
+/* Tipo Volador */
+.type-flying {
+    background-color: #a890f0;
+    color: #fff;
+}
+  
+/* Tipo Psíquico */
+.type-psychic {
+    background-color: #f85888;
+    color: #fff;
+}
+  
+/* Tipo Bicho */
+.type-bug {
+    background-color: #a8b820;
+    color: #fff;
+}
+  
+/* Tipo Roca */
+.type-rock {
+    background-color: #b8a038;
+    color: #fff;
+}
+  
+/* Tipo Fantasma */
+.type-ghost {
+    background-color: #705898;
+    color: #fff;
+}
+  
+/* Tipo Dragón */
+.type-dragon {
+    background-color: #7038f8;
+    color: #fff;
+}
+  
+/* Tipo Siniestro */
+.type-dark {
+    background-color: #705848;
+    color: #fff;
+}
+  
+/* Tipo Acero */
+.type-steel {
+    background-color: #b8b8d0;
+    color: #fff;
+}
+  
+/* Tipo Hada */
+.type-fairy {
+    background-color: #ee99ac;
+    color: #fff;
+}
+
+.pokedex-stats {
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+flex: 1;
+}
+
+.pokedex-stat {
+display: flex;
+flex-direction: column;
+margin-right: 20px;
+}
+
+.pokedex-stat-name {
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.pokedex-stat-value {
+font-size: 24px;
+font-weight: bold;
+margin-top: 5px;
+}
+
+.pokedex-buttons {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+width: 100%;
+}
+
+.pokedex-button {
+position: relative;
+width: 80px;
+height: 40px;
+background-color: #ccc;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.pokedex-button-label {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 12px;
+font-weight: bold;
+text-transform: uppercase;
+color: #333;
+letter-spacing: 1px;
+}
